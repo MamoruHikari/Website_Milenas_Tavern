@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  color: #91DDCF;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bg-custom {
+    background-color: #91DDCF;
+}
+
+.form-control {
+    background-color: white;
+    border: 0.6px solid rgba(232, 197, 229);
+    color: #91DDCF;
+}
+
+.form-control:focus {
+    color: #91DDCF;
+    background-color: white;
+    border-color: #E8C5E5;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-floating>.form-control:focus~label {
+    color: #91DDCF;
+}
+
+.form-floating>.form-control-plaintext~label::after, 
+.form-floating>.form-control:focus~label::after, 
+.form-floating>.form-control:not(:placeholder-shown)~label::after, 
+.form-floating>.form-select~label::after {
+    background-color: white;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    color: #91DDCF;
+}
+
+.btn {
+    background-color: #F19ED2;
+    border: none;
+    color: white;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    background-color: #F19ED2;
+    border: none;
+    color: white;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .form-check-label {
+    color: white;
+}
+
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .form-check-label {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.form-check-input {
+    --bs-form-check-bg: white;
+    border-color: white;
+}
+
+.form-check-input:checked {
+    background-color: #E8C5E5;
+    border-color: #E8C5E5;
+}
+
+.form-check-input:focus {
+    border-color: #91DDCF;
+    outline: 0;
+    box-shadow: none;
+}

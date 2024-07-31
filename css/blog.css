@@ -1,0 +1,440 @@
+.container {
+    max-width: 100%;
+}
+
+.header {
+    background-color: #91DDCF;
+    margin-bottom: 18px;   
+}
+
+.row {
+    max-width: 77.4vw;
+    min-width: 1111.5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header svg {
+    margin-right: 0.4rem;
+}
+
+.search-input {
+    background-color: #91DDCF;
+    transition: 0.3s ease;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+    min-width: 250px;
+}
+
+.search-input:focus {
+    background-color: #ffffff; 
+    outline: none; 
+    box-shadow: none;
+    outline: none;
+}
+
+.search-input:focus::placeholder {
+    color: transparent;
+}
+
+.subhead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subheadbar {
+    display: none;
+}
+
+.collapse {
+   display: none;
+   background-color: rgba(232, 197, 229, 0.2);
+}
+
+.collapselist {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    height: 95px;
+}
+
+li {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+.sub-header .nav-link {
+    color: #E8C5E5;
+}
+
+.sub-header .nav-link:hover,
+.sub-header .nav-link:focus {
+    color: #F19ED2; 
+}
+
+.custom-bottom {
+   border-bottom: 1px solid #E8C5E5;
+   padding-bottom: 18px;
+}
+
+.card {
+    display: flex;
+    background-color: #FBF8F3;
+    align-items: center;
+    border: none;
+}
+
+
+.recipe h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+      margin-bottom: 1.5rem;
+}
+
+.recipe p {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+      margin-bottom: 1.5rem;
+}
+
+.recipe h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: clamp(1.4rem, 2.3vw, 1.6rem);
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+      margin-bottom: 1.5rem;
+}
+
+.recipe ul,
+.recipe ol {
+    margin-bottom: 1.5rem;
+}
+
+.recipe li {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+      margin-bottom: 0.2rem;
+}
+
+.li-main {
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+
+.footer {
+    background-color: #E2BBE9;
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    
+}
+
+.footercard {
+    padding: 0;
+}
+
+.rowabove {
+    padding: 0;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowabove h5 {
+    font-size: clamp(1.2rem, 2vw, 1.3rem);
+}
+
+.rowabove li {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.row1 {
+    padding-left: 0;
+}
+
+.row3 {
+    padding-right: 0;
+}
+
+h5 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    font-style: normal;
+    font-size: 1.28rem;
+    padding-bottom: 0.3rem;
+}
+
+.txt li {
+    font-size: 1.1rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.footercard .card {
+    overflow: hidden;
+}
+
+.footercard video {
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.footercard .videotext {
+    z-index: 1;
+}
+
+.videotext h3,
+.videotext small {
+    color: #F7F9F2;
+}
+
+.videotext h3 {
+    font-size: clamp(20px, 2.5vw, 100px);
+}
+.videotext small {
+    font-size: clamp(15px, 1vw, 100px);
+}
+
+.rowbelow {
+    border-top: 1px solid black;
+}
+
+.rowbelow p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.toasty2 {
+    height: 449px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5%;
+    border: none;
+}
+
+.recipe-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: rgba(145, 221, 207, 0.8);
+    padding-bottom: 6px;
+}
+
+.recipe-date p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.recipe-date .month,
+.recipe-date .year {
+    font-size: 0.75rem;
+}
+
+.recipe-date .day {
+    font-size: 1.9rem;
+}
+
+.recipe-right h4,
+.recipe-right p,
+.recipe-right h6,
+.recipe-right small,
+.recipe-right li {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.recipe-right .custom-top {
+    border-top: 1px solid #E8C5E5;
+}
+
+.archivelist a {
+    color: rgb(70, 130, 180);
+}
+
+@media (max-width: 1235px) {
+    .container {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row {
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+    
+    .subhead {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .subheadbar {
+        display: flex;
+        justify-content: start;
+        padding: 0;
+    }
+
+    .subheadbar button {
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .subheadbar svg {
+        fill: #E8C5E5;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .collapse {
+        display: block;
+    }
+
+    .collapselist {
+        padding: 15px 0px;
+    }
+
+    .collapse .nav-link {
+        color: rgba(238, 88, 183, 0.7);
+    }
+    
+    .collapse .nav-link:hover,
+    .collapse .nav-link:focus {
+        color: #F19ED2; 
+    }
+
+    .collapselist li {
+        font-size: clamp(0.9rem, 2vw, 1.1rem);
+        line-height: 1.3;
+    }
+
+    .logo img {
+        height: 85px;
+    }
+
+    .subhead1,
+    .subhead2 {
+        display: none !important;
+    }
+
+    .recipe {
+        padding-right: 1.5rem !important;
+    }
+
+    .toasty2 {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {    
+    .header svg {
+        width: 14px;
+        margin-right: 0.2rem;
+    }
+
+    .search-input {
+        min-width: 195px;
+    }
+    
+    .subheadbar svg {
+        height: 30px;
+        width: 35px;
+    }
+    
+    .logo img {
+        height: 75px;
+    }
+
+    .recipe-right {
+        display: none;
+    }
+
+    .recipe {
+        padding: 0 !important;
+        width: 100%;
+    }
+}  
+
+@media (max-width: 575.98px) {
+    .subheadbar svg {
+        height: 25px;
+        width: 30px;
+    }
+    
+    .rowbelow p,
+    .rowbelow ul {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .row1,
+    .row2,
+    .row3 {
+        text-align: center;
+        padding-bottom: 1.4rem;
+    }
+
+    .toasty2 {
+        height: 350px;
+    }
+}
