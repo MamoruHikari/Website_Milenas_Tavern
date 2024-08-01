@@ -486,7 +486,7 @@ h2 .nav-link:focus {
 }
 
 .rowabove h5 {
-    font-size: clamp(1.2rem, 2vw, 1.3rem);
+    font-size: clamp(1.05rem, 4.2vw, 1.3rem);
 }
 
 .rowabove li {
@@ -510,7 +510,7 @@ h5 {
 }
 
 .txt li {
-    font-size: 1.1rem;
+    font-size: clamp(0.9rem, 3.7vw, 1.1rem);
     font-family: "Nunito Sans", sans-serif;
 }
 
