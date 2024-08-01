@@ -251,10 +251,6 @@
             const videoElement = document.getElementById('randomVideo');
             const randomVideo = getRandomVideo();
             videoElement.setAttribute('src', randomVideo);
-
-            videoElement.addEventListener('canplay', function() {
-                videoElement.play();
-            });
         });
     </script>
     
