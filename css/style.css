@@ -546,7 +546,7 @@ h5 {
 
 .rowbelow p {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 3.7vw, 1rem);
 }
 
 .hidden1 {
